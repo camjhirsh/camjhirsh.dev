@@ -13,13 +13,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _headline_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./headline.jsx */ "./src/components/headline.jsx");
-/* harmony import */ var _expertise_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./expertise.jsx */ "./src/components/expertise.jsx");
-/* harmony import */ var _experience_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./experience.jsx */ "./src/components/experience.jsx");
-/* harmony import */ var _education_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./education.jsx */ "./src/components/education.jsx");
-/* harmony import */ var _honors_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./honors.jsx */ "./src/components/honors.jsx");
-/* harmony import */ var _projects_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./projects.jsx */ "./src/components/projects.jsx");
-/* harmony import */ var _image_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./image.jsx */ "./src/components/image.jsx");
+/* harmony import */ var _assets_observe_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/observe.png */ "./src/assets/observe.png");
+/* harmony import */ var _headline_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./headline.jsx */ "./src/components/headline.jsx");
+/* harmony import */ var _expertise_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./expertise.jsx */ "./src/components/expertise.jsx");
+/* harmony import */ var _experience_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./experience.jsx */ "./src/components/experience.jsx");
+/* harmony import */ var _education_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./education.jsx */ "./src/components/education.jsx");
+/* harmony import */ var _honors_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./honors.jsx */ "./src/components/honors.jsx");
+/* harmony import */ var _projects_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./projects.jsx */ "./src/components/projects.jsx");
 
 
 
@@ -33,13 +33,18 @@ var App = function App() {
     className: "wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "headline one"
-  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_image_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], null), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_headline_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "image-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "image",
+    src: _assets_observe_png__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_headline_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "three"
   }, " Introduction "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "one"
   }, "Hi, I\u2019m Cameron! I\u2019m a recent Data Science graduate from UC Berkeley. I\u2019m fascinated with cryptography, distributed networks, and computer vision, and love to explore how modern innovations will affect future security protocols. Currently, I\u2019m getting up to speed on quantum computing and the transition from factoring- to lattice-based encryption. Aside from my interests in software, I\u2019m an avid automobile enthusiast (go Lewis Hamilton!). I love meeting new people, so feel free to set up a conversation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "one"
-  }, " Expertise "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_expertise_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, " Experience "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_experience_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, " Education "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_education_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, " Honors "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_honors_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, " Projects "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_projects_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], null));
+  }, " Expertise "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_expertise_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, " Experience "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_experience_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, " Education "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_education_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, " Honors "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_honors_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, " Projects "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_projects_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
@@ -131,11 +136,43 @@ var Headline = function Headline() {
     className: "orange"
   }, " HIRSH "), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "subtitle"
-  }, " Developer, Designer, and Innovator "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "socials"
-  }, " Social Links "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Developer, Designer, and Innovator "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "social-links"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://www.linkedin.com/in/camjhirsh/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "outer-icon"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "inner-icon"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
+    className: "fab fa-lg fa-linkedin"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://github.com/camjhirsh/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "outer-icon"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "inner-icon"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
+    className: "fab  fa-lg  fa-github"
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "sub-headline"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Location "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Phone "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Email "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " PGP Fingerprint "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Berkeley, CA "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " 858.205.3649 "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " camjhirsh@gmail.com "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " 12345678910 "))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "sub-headline-title"
+  }, " Location "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "sub-headline-title"
+  }, " Phone "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "sub-headline-title"
+  }, " Email "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "sub-headline-title"
+  }, " PGP Fingerprint "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "sub-headline-detail"
+  }, " Berkeley, CA "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "sub-headline-detail"
+  }, " 858.205.3649 "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "sub-headline-detail"
+  }, " camjhirsh@gmail.com "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "sub-headline-detail"
+  }, "12345678910 BHSJBDJLSMDSKL ADKLNFDKSLFND"))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Headline);
 
@@ -158,33 +195,6 @@ var Honors = function Honors() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "THsi Awards");
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Honors);
-
-/***/ }),
-
-/***/ "./src/components/image.jsx":
-/*!**********************************!*\
-  !*** ./src/components/image.jsx ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _assets_observe_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/observe.png */ "./src/assets/observe.png");
-
-
-var Image = function Image() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "image-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    classname: "image",
-    src: _assets_observe_png__WEBPACK_IMPORTED_MODULE_1__["default"]
-  }));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Image);
 
 /***/ }),
 
@@ -228,7 +238,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block;\n}\n\nbody {\n  line-height: 1;\n}\n\nol, ul {\n  list-style: none;\n}\n\nblockquote, q {\n  quotes: none;\n}\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: \"\";\n  content: none;\n}\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n:root {\n  --orange: #efa94d;\n  --dark-navy: #252b3d;\n  --light-navy: #2c3448;\n  --darker-navy: #212739;\n  --text: #AFB0B2;\n}\n\n.orange {\n  color: #efa94d;\n}\n\n.dark-navy {\n  color: #1B274B;\n}\n\n.light-navy {\n  color: #2B3D71;\n}\n\n.one {\n  background-color: var(--dark-navy);\n}\n\n.two {\n  background-color: var(--light-navy);\n}\n\n.three {\n  background-color: var(--darker-navy);\n}\n\n.wrapper {\n  display: grid;\n  grid-template-columns: 30% 70%;\n  background-color: var(--dark-navy);\n  color: var(--text);\n  font-family: \"Lato\", sans-serif;\n}\n\n.headline {\n  height: 100vh;\n}\n\n.image-container {\n  border-radius: 50%;\n}\n\n.image {\n  border-radius: 50%;\n}\n\n.headline-content {\n  padding-top: 200px;\n  padding-left: 80px;\n}\n\n.name {\n  font-size: 70px;\n  padding-bottom: 25px;\n}\n\n.subtitle {\n  padding-bottom: 25px;\n  font-weight: 100;\n  font-size: 20px;\n}\n\n.socials {\n  padding-bottom: 25px;\n  border-bottom: solid 1px var(--text);\n}\n\n.sub-headline {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n}\n\n.expertise {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n}", "",{"version":3,"sources":["webpack://./src/styles.scss"],"names":[],"mappings":"AAEA;;;CAAA;AAKA;;;;;;;;;;;;;EAaC,SAAA;EACA,UAAA;EACA,SAAA;EACA,eAAA;EACA,aAAA;EACA,wBAAA;AAFD;;AAIA,gDAAA;AACA;;EAEC,cAAA;AADD;;AAGA;EACC,cAAA;AAAD;;AAEA;EACC,gBAAA;AACD;;AACA;EACC,YAAA;AAED;;AAAA;;EAEC,WAAA;EACA,aAAA;AAGD;;AADA;EACC,yBAAA;EACA,iBAAA;AAID;;AACA;EACE,iBAAA;EACA,oBAAA;EACA,qBAAA;EACA,sBAAA;EACA,eAAA;AAEF;;AACA;EACE,cAAA;AAEF;;AACA;EACE,cAAA;AAEF;;AACA;EACE,cAAA;AAEF;;AACA;EACE,kCAAA;AAEF;;AACA;EACE,mCAAA;AAEF;;AACA;EACE,oCAAA;AAEF;;AAIA;EACE,aAAA;EACA,8BAAA;EACA,kCAAA;EACA,kBAAA;EACA,+BAAA;AADF;;AAIA;EACE,aAAA;AADF;;AAIA;EACE,kBAAA;AADF;;AAIA;EACE,kBAAA;AADF;;AAIA;EACE,kBAAA;EACA,kBAAA;AADF;;AAIA;EACE,eAAA;EACA,oBAAA;AADF;;AAIA;EACE,oBAAA;EACA,gBAAA;EACA,eAAA;AADF;;AAIA;EACE,oBAAA;EACA,oCAAA;AADF;;AAIA;EACE,aAAA;EACA,qCAAA;AADF;;AAKA;EACE,aAAA;EACA,8BAAA;AAFF","sourcesContent":["//-----------------> CSS Reset <--------------------//\n\n/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\n//-----------------> Theme <--------------------//\n\n:root {\n  --orange: #efa94d;\n  --dark-navy: #252b3d;\n  --light-navy: #2c3448;\n  --darker-navy: #212739;\n  --text: #AFB0B2;\n}\n\n.orange {\n  color: #efa94d;\n}\n\n.dark-navy {\n  color: #1B274B\n}\n\n.light-navy {\n  color: #2B3D71\n}\n\n.one {\n  background-color: var(--dark-navy);\n}\n\n.two {\n  background-color: var(--light-navy);\n}\n\n.three {\n  background-color: var(--darker-navy);\n}\n\n\n//-----------------> Styling <--------------------//\n\n.wrapper {\n  display: grid;\n  grid-template-columns: 30% 70%;\n  background-color: var(--dark-navy);\n  color: var(--text);\n  font-family: 'Lato', sans-serif;\n}\n\n.headline {\n  height: 100vh;\n}\n\n.image-container {\n  border-radius: 50%;\n}\n\n.image {\n  border-radius: 50%;\n}\n\n.headline-content {\n  padding-top: 200px;\n  padding-left: 80px;\n}\n\n.name {\n  font-size: 70px;\n  padding-bottom: 25px;\n}\n\n.subtitle {\n  padding-bottom: 25px;\n  font-weight: 100;\n  font-size: 20px;\n}\n\n.socials {\n  padding-bottom: 25px;\n  border-bottom: solid 1px var(--text);\n}\n\n.sub-headline {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n\n}\n\n.expertise {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block;\n}\n\nbody {\n  line-height: 1;\n}\n\nol, ul {\n  list-style: none;\n}\n\nblockquote, q {\n  quotes: none;\n}\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: \"\";\n  content: none;\n}\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n:root {\n  --orange: #efa94d;\n  --dark-navy: #252b3d;\n  --light-navy: #2c3448;\n  --darker-navy: #212739;\n  --icon: #394158;\n  --text: #AFB0B2;\n  --extra: #efa94d;\n  --extra: #f2800a;\n}\n\n.orange {\n  color: var(--orange);\n}\n\n.dark-navy {\n  color: #1B274B;\n}\n\n.light-navy {\n  color: #2B3D71;\n}\n\n.one {\n  background-color: var(--dark-navy);\n}\n\n.two {\n  background-color: var(--light-navy);\n}\n\n.three {\n  background-color: var(--darker-navy);\n}\n\na {\n  text-decoration: none;\n}\n\na:visited {\n  text-decoration: none;\n  color: var(--text);\n}\n\na:hover {\n  color: var(--orange);\n  cursor: pointer;\n}\n\n.wrapper {\n  display: grid;\n  grid-template-columns: 30% 70%;\n  background-color: var(--dark-navy);\n  color: var(--text);\n  font-family: \"Lato\", sans-serif;\n}\n\n.headline {\n  height: 100vh;\n}\n\n.image-container {\n  padding-top: 200px;\n  text-align: center;\n}\n\n.image {\n  width: 200px;\n  height: 200px;\n  object-fit: cover;\n  border-radius: 50%;\n}\n\n.headline-content {\n  padding-top: 200px;\n  padding-left: 80px;\n  padding-right: 80px;\n}\n\n.name {\n  font-size: 70px;\n  padding-bottom: 25px;\n}\n\n.subtitle {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  padding-bottom: 60px;\n  font-weight: 100;\n  font-size: 20px;\n  border-bottom: solid 1px var(--text);\n}\n\n.social-links {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  height: 40px;\n  padding-left: 20px;\n  border-left: solid 1px var(--text);\n}\n\n.outer-icon {\n  height: 40px;\n  width: 40px;\n  border-radius: 3px;\n  background-color: var(--icon);\n  text-align: center;\n}\n\n.inner-icon:hover {\n  height: 30px;\n  width: 30px;\n  background-color: var(--dark-navy);\n}\n\n.fab {\n  padding-top: 10px;\n}\n\n.sub-headline {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n}\n\n.sub-headline-title {\n  padding-top: 50px;\n  font-weight: bolder;\n  padding-bottom: 30px;\n}\n\n.expertise {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n}", "",{"version":3,"sources":["webpack://./src/styles.scss"],"names":[],"mappings":"AAEA;;;CAAA;AAKA;;;;;;;;;;;;;EAaC,SAAA;EACA,UAAA;EACA,SAAA;EACA,eAAA;EACA,aAAA;EACA,wBAAA;AAFD;;AAIA,gDAAA;AACA;;EAEC,cAAA;AADD;;AAGA;EACC,cAAA;AAAD;;AAEA;EACC,gBAAA;AACD;;AACA;EACC,YAAA;AAED;;AAAA;;EAEC,WAAA;EACA,aAAA;AAGD;;AADA;EACC,yBAAA;EACA,iBAAA;AAID;;AACA;EACE,iBAAA;EACA,oBAAA;EACA,qBAAA;EACA,sBAAA;EACA,eAAA;EACA,eAAA;EACA,gBAAA;EACA,gBAAA;AAEF;;AACA;EACE,oBAAA;AAEF;;AACA;EACE,cAAA;AAEF;;AACA;EACE,cAAA;AAEF;;AACA;EACE,kCAAA;AAEF;;AACA;EACE,mCAAA;AAEF;;AACA;EACE,oCAAA;AAEF;;AACA;EACE,qBAAA;AAEF;;AACA;EACE,qBAAA;EACA,kBAAA;AAEF;;AACA;EACE,oBAAA;EACA,eAAA;AAEF;;AAIA;EACE,aAAA;EACA,8BAAA;EACA,kCAAA;EACA,kBAAA;EACA,+BAAA;AADF;;AAIA;EACE,aAAA;AADF;;AAIA;EACE,kBAAA;EACA,kBAAA;AADF;;AAIA;EACE,YAAA;EACA,aAAA;EACA,iBAAA;EACA,kBAAA;AADF;;AAIA;EACE,kBAAA;EACA,kBAAA;EACA,mBAAA;AADF;;AAIA;EACE,eAAA;EACA,oBAAA;AADF;;AAIA;EACE,aAAA;EACA,8BAAA;EACA,oBAAA;EACA,gBAAA;EACA,eAAA;EACA,oCAAA;AADF;;AAIA;EACE,aAAA;EACA,qCAAA;EACA,YAAA;EACA,kBAAA;EACA,kCAAA;AADF;;AAIA;EACE,YAAA;EACA,WAAA;EACA,kBAAA;EACA,6BAAA;EACA,kBAAA;AADF;;AAIA;EACE,YAAA;EACA,WAAA;EACA,kCAAA;AADF;;AAIA;EACE,iBAAA;AADF;;AAIA;EACE,aAAA;EACA,qCAAA;AADF;;AAIA;EACE,iBAAA;EACA,mBAAA;EACA,oBAAA;AADF;;AAOA;EACE,aAAA;EACA,8BAAA;AAJF","sourcesContent":["//-----------------> CSS Reset <--------------------//\n\n/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\n//-----------------> Theme <--------------------//\n\n:root {\n  --orange: #efa94d;\n  --dark-navy: #252b3d;\n  --light-navy: #2c3448;\n  --darker-navy: #212739;\n  --icon: #394158;\n  --text: #AFB0B2;\n  --extra: #efa94d;\n  --extra: #f2800a;\n}\n\n.orange {\n  color: var(--orange);\n}\n\n.dark-navy {\n  color: #1B274B\n}\n\n.light-navy {\n  color: #2B3D71\n}\n\n.one {\n  background-color: var(--dark-navy);\n}\n\n.two {\n  background-color: var(--light-navy);\n}\n\n.three {\n  background-color: var(--darker-navy);\n}\n\na {\n  text-decoration: none;\n}\n\na:visited {\n  text-decoration: none;\n  color: var(--text);\n}\n\na:hover {\n  color: var(--orange);\n  cursor: pointer;\n}\n\n\n//-----------------> Styling <--------------------//\n\n.wrapper {\n  display: grid;\n  grid-template-columns: 30% 70%;\n  background-color: var(--dark-navy);\n  color: var(--text);\n  font-family: 'Lato', sans-serif;\n}\n\n.headline {\n  height: 100vh;\n}\n\n.image-container {\n  padding-top: 200px;\n  text-align: center;\n}\n\n.image {\n  width: 200px;\n  height: 200px;\n  object-fit: cover;\n  border-radius: 50%;\n}\n\n.headline-content {\n  padding-top: 200px;\n  padding-left: 80px;\n  padding-right: 80px;\n}\n\n.name {\n  font-size: 70px;\n  padding-bottom: 25px;\n}\n\n.subtitle {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  padding-bottom: 60px;\n  font-weight: 100;\n  font-size: 20px;\n  border-bottom: solid 1px var(--text);\n}\n\n.social-links {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  height: 40px;\n  padding-left: 20px;\n  border-left: solid 1px var(--text);\n}\n\n.outer-icon {\n  height: 40px;\n  width: 40px;\n  border-radius: 3px;\n  background-color: var(--icon);\n  text-align: center;\n}\n\n.inner-icon:hover {\n  height:30px;\n  width: 30px;\n  background-color: var(--dark-navy);\n}\n\n.fab {\n  padding-top: 10px;\n}\n\n.sub-headline {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n}\n\n.sub-headline-title {\n  padding-top: 50px;\n  font-weight: bolder;\n  padding-bottom: 30px;\n}\n// .sub-headline-detail {\n//   font-weight: ;\n// }\n\n.expertise {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
