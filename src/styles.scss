@@ -259,19 +259,17 @@ ul {
 
 .timeline-container {
   display: grid;
-  grid-template-columns: 50px 250px auto;
-  height: 250px;
+  grid-template-columns: 30px 250px auto;
 }
 
 .timeline-contents {
-  height: 250px;
-  width: 50px;
+  width: 30px;
   position: relative;
 }
 
 .timeline-line {
   width: 2px;
-  height: 250px;
+  height: 100%;
   background-color: #464d61;
   position: absolute;
   top: 0;
@@ -280,14 +278,15 @@ ul {
 }
 
 .timeline-outer-circle {
-  height: 18px;
-  width: 18px;
+  height: 22px;
+  width: 22px;
   border-radius: 9px;
   background-color: var(--dark-navy);
   position: absolute;
   top: 0;
   left: 50%;
   margin-left: -9px;
+  margin-top: -6px;
 }
 
 .timeline-inner-circle {
@@ -301,7 +300,7 @@ ul {
   margin-left: -5px;
 }
 
-.timeline-info-location {
+.timeline-info-date {
   font-size: x-small;
   padding-bottom: 15px;
   color: #464d61;
@@ -316,7 +315,7 @@ ul {
   padding-bottom: 15px;
 }
 
-.timeline-info-date {
+.timeline-info-location {
   font-size: x-small;
   color: #464d61;
 }
@@ -324,6 +323,7 @@ ul {
 .timeline-description {
  font-size: small;
  line-height: 2.0;
+ padding-bottom: 50px;
 }
 
 
