@@ -2,7 +2,7 @@ import React from "react";
 
 const Expertise = () => {
   return (
-    <div className="expertise">
+    <div className="expertise two">
       <div> LANGUAGES </div>
       <div> TECHNOLOGIES </div>
       <ul>

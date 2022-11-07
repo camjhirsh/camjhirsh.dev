@@ -55,6 +55,7 @@ table {
   --orange: #efa94d;
   --dark-navy: #252b3d;
   --light-navy: #2c3448;
+  --darker-navy: #212739;
   --text: #AFB0B2;
 }
 
@@ -78,6 +79,10 @@ table {
   background-color: var(--light-navy);
 }
 
+.three {
+  background-color: var(--darker-navy);
+}
+
 
 //-----------------> Styling <--------------------//
 
@@ -93,13 +98,39 @@ table {
   height: 100vh;
 }
 
+.image-container {
+  border-radius: 50%;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.headline-content {
+  padding-top: 200px;
+  padding-left: 80px;
+}
+
 .name {
   font-size: 70px;
+  padding-bottom: 25px;
+}
+
+.subtitle {
+  padding-bottom: 25px;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.socials {
+  padding-bottom: 25px;
+  border-bottom: solid 1px var(--text);
 }
 
 .sub-headline {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
 }
 
 .expertise {

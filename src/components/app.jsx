@@ -6,14 +6,15 @@ import Experience from "./experience.jsx";
 import Education from "./education.jsx";
 import Honors from "./honors.jsx";
 import Projects from "./projects.jsx";
+import Image from "./image.jsx";
 
 const App = () => {
   return (
     <div className="wrapper">
-      <div className="headline one"> Profile Picture </div>
+      <div className="headline one"> <Image/> </div>
       <Headline/>
-      <div> Introduction </div>
-      <div>
+      <div className="three"> Introduction </div>
+      <div className="one">
         Hi, I’m Cameron! I’m a recent Data Science graduate from UC Berkeley.
         I’m fascinated with cryptography, distributed networks, and computer vision,
         and love to explore how modern innovations will affect future security protocols.
@@ -21,7 +22,7 @@ const App = () => {
         Aside from my interests in software, I’m an avid automobile enthusiast (go Lewis Hamilton!).
         I love meeting new people, so feel free to set up a conversation.
       </div>
-      <div> Expertise </div>
+      <div className="one"> Expertise </div>
       <Expertise/>
       <div> Experience </div>
       <Experience/>
