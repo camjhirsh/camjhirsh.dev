@@ -144,7 +144,7 @@ ul {
 }
 
 .image-container {
-  padding-top: 200px;
+  padding-top: 38vh;
   text-align: center;
 }
 
@@ -156,7 +156,7 @@ ul {
 }
 
 .headline-content {
-  padding-top: 200px;
+  padding-top: 38vh;
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -177,9 +177,10 @@ ul {
 
 .social-links {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 40px);
+  column-gap: 10px;
   height: 40px;
-  padding-left: 20px;
+  padding-left: 40px;
   border-left: solid 1px var(--text);
 }
 
@@ -197,13 +198,12 @@ ul {
   height:34px;
   width: 34px;
   border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .inner-icon:hover {
   background-color: var(--dark-navy);
-}
-
-.fab {
-  padding-top: 10px;
 }
 
 .sub-headline {
@@ -240,6 +240,57 @@ ul {
   color: var(--orange);
   padding-right: 30px;
 }
+
+//-----------------> Experience <--------------------//
+
+.timeline-container {
+  display: grid;
+  grid-template-columns: 50px 250px auto;
+  height: 250px;
+}
+
+.timeline-contents {
+  height: 250px;
+  width: 50px;
+  position: relative;
+}
+
+.timeline-line {
+  width: 2px;
+  height: 250px;
+  background-color: var(--text);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timeline-outer-circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+  background-color: var(--dark-navy);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -7.5px;
+}
+
+.timeline-inner-circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: var(--orange);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.timeline-description {
+  font-size: x-small;
+}
+
 
 //-----------------> Honors <--------------------//
 

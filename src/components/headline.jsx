@@ -17,7 +17,7 @@ const Headline = () => {
             <a href="https://www.linkedin.com/in/camjhirsh/">
               <div className="outer-icon">
                 <div className="inner-icon">
-                  <i className="fab fa-lg fa-linkedin"></i>
+                  <i className="social-icon fab fa-lg fa-linkedin"></i>
                 </div>
               </div>
             </a>
@@ -25,7 +25,7 @@ const Headline = () => {
             <a href="https://github.com/camjhirsh/">
               <div className="outer-icon">
                 <div className="inner-icon">
-                  <i className="fab  fa-lg  fa-github"></i>
+                  <i className="social-icon fab  fa-lg  fa-github"></i>
                 </div>
               </div>
             </a>

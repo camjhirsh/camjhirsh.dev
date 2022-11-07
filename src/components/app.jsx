@@ -7,6 +7,8 @@ import Experience from "./experience.jsx";
 import Education from "./education.jsx";
 import Honors from "./honors.jsx";
 import Projects from "./projects.jsx";
+import Media from "./media.jsx";
+import Contact from "./contact.jsx";
 
 
 const App = () => {
@@ -57,6 +59,14 @@ const App = () => {
       <div className="section section-title"> PROJECTS </div>
 
       <Projects/>
+
+      <div className="section section-title"> MEDIA </div>
+
+      <Media/>
+
+      <div className="section section-title"> CONTACT </div>
+
+      <Contact/>
 
     </div>
   )
