@@ -52,7 +52,7 @@ table {
 //-----------------> Theme <--------------------//
 
 :root {
-  --orange: #efa94d;
+  --orange: #f29f06;
   --dark-navy: #252b3d;
   --light-navy: #2c3448;
   --darker-navy: #212739;
@@ -104,6 +104,10 @@ p {
   line-height: 2.0;
 }
 
+ul {
+  list-style-type: circle;
+}
+
 
 //-----------------> Styling <--------------------//
 
@@ -122,6 +126,15 @@ p {
 .section-title {
   color: var(--orange);
   text-align: right;
+}
+
+.section-subtitle {
+  font-size: large;
+  font-weight: bolder;
+}
+.section-subtitle:hover {
+  color: var(--orange);
+  cursor: pointer;
 }
 
 //-----------------> Headline <--------------------//
@@ -175,12 +188,17 @@ p {
   width: 40px;
   border-radius: 3px;
   background-color: var(--icon);
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.inner-icon {
+  height:34px;
+  width: 34px;
+  border-radius: 3px;
+}
 .inner-icon:hover {
-  height:30px;
-  width: 30px;
   background-color: var(--dark-navy);
 }
 
@@ -222,3 +240,31 @@ p {
   color: var(--orange);
   padding-right: 30px;
 }
+
+//-----------------> Honors <--------------------//
+
+.honor-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+//-----------------> Projects <--------------------//
+
+.project-title {
+  height: 40px;
+  line-height: 40px;
+}
+
+.project-tools {
+  height: 30px;
+  line-height: 30px;
+  font-size: small;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.project-info {
+  line-height: 2.0;
+  padding-bottom: 40px;
+}
+

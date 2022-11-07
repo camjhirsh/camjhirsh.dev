@@ -38,16 +38,16 @@ const Expertise = () => {
         Javascript
       </div>
       <div className="expertise-section">
-        <i class="fab  fa-lg  fa-js-square expertise-icon"></i>
-        Javascript
+        <i class="fas  fa-lg  fa-database expertise-icon"></i>
+        SQL
       </div>
       <div className="expertise-section">
         <i class="fab  fa-lg  fa-js-square expertise-icon"></i>
         Javascript
       </div>
       <div className="expertise-section">
-        <i class="fab  fa-lg  fa-js-square expertise-icon"></i>
-        Javascript
+        <i class="fab fa-sharp fa-solid fa-r expertise-icon"></i>
+        R
       </div>
       <div className="expertise-section">
         <i class="fab  fa-lg  fa-js-square expertise-icon"></i>
