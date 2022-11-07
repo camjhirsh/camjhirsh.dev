@@ -100,6 +100,10 @@ a:hover {
   cursor: pointer;
 }
 
+p {
+  line-height: 2.0;
+}
+
 
 //-----------------> Styling <--------------------//
 
@@ -114,6 +118,13 @@ a:hover {
 .section {
   padding: 80px;
 }
+
+.section-title {
+  color: var(--orange);
+  text-align: right;
+}
+
+//-----------------> Headline <--------------------//
 
 .headline {
   height: 100vh;
@@ -187,11 +198,27 @@ a:hover {
   font-weight: bolder;
   padding-bottom: 30px;
 }
-// .sub-headline-detail {
-//   font-weight: ;
-// }
+
+.sub-headline-detail {
+  font-weight: lighter;
+}
+
+//-----------------> Expertise <--------------------//
 
 .expertise {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.expertise-subtitle {
+  padding-bottom: 30px;
+}
+
+.expertise-section {
+  padding-bottom: 30px;
+}
+
+.expertise-icon {
+  color: var(--orange);
+  padding-right: 30px;
 }
