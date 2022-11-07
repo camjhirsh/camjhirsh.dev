@@ -1,2 +1,2 @@
-# camjhirsh.github.io
-http://camjhirsh.io
+# camjhirsh.dev
+http://camjhirsh.dev
