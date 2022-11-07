@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div>
+    <div className="section">
       Cibus: Senior LIMS + Data Research Associate
       SigmaPoint Technologies: Quality Engineer Intern
       Franco's Flapjack Family Restaurant: Waiter

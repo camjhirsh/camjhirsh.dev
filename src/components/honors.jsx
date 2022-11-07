@@ -2,7 +2,7 @@ import React from "react";
 
 const Honors = () => {
   return (
-    <div>
+    <div className="section">
       THsi Awards
     </div>
   )

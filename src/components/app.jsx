@@ -21,9 +21,9 @@ const App = () => {
 
       <Headline/>
 
-      <div className="three"> Introduction </div>
+      <div className="section three"> Introduction </div>
 
-      <div className="one">
+      <div className="section one">
         Hi, I’m Cameron! I’m a recent Data Science graduate from UC Berkeley.
         I’m fascinated with cryptography, distributed networks, and computer vision,
         and love to explore how modern innovations will affect future security protocols.
@@ -32,23 +32,23 @@ const App = () => {
         I love meeting new people, so feel free to set up a conversation.
       </div>
 
-      <div className="one"> Expertise </div>
+      <div className="section one"> Expertise </div>
 
       <Expertise/>
 
-      <div> Experience </div>
+      <div className="section three"> Experience </div>
 
       <Experience/>
 
-      <div> Education </div>
+      <div className="section one"> Education </div>
 
       <Education/>
 
-      <div> Honors </div>
+      <div className="section three"> Honors </div>
 
       <Honors/>
 
-      <div> Projects </div>
+      <div className="section"> Projects </div>
 
       <Projects/>
 
