@@ -1,2 +1,2 @@
 # camjhirsh.dev
-http://camjhirsh.dev
+https://camjhirsh.dev
