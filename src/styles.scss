@@ -166,10 +166,20 @@ ul {
   padding-bottom: 25px;
 }
 
+.first-name {
+  font-weight: 300;
+}
+
+.cam-headline {
+  line-height: 40px;
+}
+
 .subtitle {
+  height: 40px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 45% 55%;
   padding-bottom: 60px;
+  padding-left: 5px;
   font-weight: 100;
   font-size: 20px;
   border-bottom: solid 1px var(--text);
@@ -177,7 +187,7 @@ ul {
 
 .social-links {
   display: grid;
-  grid-template-columns: repeat(3, 40px);
+  grid-template-columns: repeat(4, 40px);
   column-gap: 10px;
   height: 40px;
   padding-left: 40px;
@@ -213,12 +223,12 @@ ul {
 
 .sub-headline-title {
   padding-top: 50px;
-  font-weight: bolder;
+  font-weight: 400;
   padding-bottom: 30px;
 }
 
 .sub-headline-detail {
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 //-----------------> Expertise <--------------------//
@@ -226,14 +236,18 @@ ul {
 .expertise {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.expertise-subtitle {
-  padding-bottom: 30px;
+  row-gap: 40px;
 }
 
 .expertise-section {
-  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.expertise-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .expertise-icon {
@@ -258,7 +272,7 @@ ul {
 .timeline-line {
   width: 2px;
   height: 250px;
-  background-color: var(--text);
+  background-color: #464d61;
   position: absolute;
   top: 0;
   left: 50%;
@@ -266,14 +280,14 @@ ul {
 }
 
 .timeline-outer-circle {
-  height: 15px;
-  width: 15px;
-  border-radius: 7.5px;
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
   background-color: var(--dark-navy);
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: -7.5px;
+  margin-left: -9px;
 }
 
 .timeline-inner-circle {
@@ -287,8 +301,29 @@ ul {
   margin-left: -5px;
 }
 
-.timeline-description {
+.timeline-info-location {
   font-size: x-small;
+  padding-bottom: 15px;
+  color: #464d61;
+}
+
+.timeline-info-title {
+  padding-bottom: 15px;
+}
+
+.timeline-info-job {
+  font-size: small;
+  padding-bottom: 15px;
+}
+
+.timeline-info-date {
+  font-size: x-small;
+  color: #464d61;
+}
+
+.timeline-description {
+ font-size: small;
+ line-height: 2.0;
 }
 
 

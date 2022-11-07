@@ -6,11 +6,11 @@ const Headline = () => {
     <div className="headline two">
       <div className="headline-content">
 
-        <div className="name"> CAMERON <span className="orange"> HIRSH </span> </div>
+        <div className="name"> <span className="first-name"> CAMERON </span> <span className="orange"> HIRSH </span> </div>
 
         <div className="subtitle">
 
-          <span> Developer, Designer, and Innovator </span>
+          <span className="cam-headline"> Developer, Designer, and Innovator </span>
 
           <span className="social-links">
 
@@ -26,6 +26,22 @@ const Headline = () => {
               <div className="outer-icon">
                 <div className="inner-icon">
                   <i className="social-icon fab  fa-lg  fa-github"></i>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/camjhirsh/">
+              <div className="outer-icon">
+                <div className="inner-icon">
+                  <i className="social-icon fa-solid fa-file"></i>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/camjhirsh/">
+              <div className="outer-icon">
+                <div className="inner-icon">
+                  <i className="social-icon fa-regular fa-calendar"></i>
                 </div>
               </div>
             </a>
