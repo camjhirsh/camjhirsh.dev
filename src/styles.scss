@@ -49,4 +49,60 @@ table {
 	border-spacing: 0;
 }
 
+//-----------------> Theme <--------------------//
+
+:root {
+  --orange: #efa94d;
+  --dark-navy: #252b3d;
+  --light-navy: #2c3448;
+  --text: #AFB0B2;
+}
+
+.orange {
+  color: #efa94d;
+}
+
+.dark-navy {
+  color: #1B274B
+}
+
+.light-navy {
+  color: #2B3D71
+}
+
+.one {
+  background-color: var(--dark-navy);
+}
+
+.two {
+  background-color: var(--light-navy);
+}
+
+
 //-----------------> Styling <--------------------//
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: var(--dark-navy);
+  color: var(--text);
+  font-family: 'Lato', sans-serif;
+}
+
+.headline {
+  height: 100vh;
+}
+
+.name {
+  font-size: 70px;
+}
+
+.sub-headline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.expertise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
