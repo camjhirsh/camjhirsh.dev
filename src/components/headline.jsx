@@ -1,5 +1,7 @@
 import React from "react";
 
+import resume from '../assets/resume.pdf';
+
 const Headline = () => {
 
   return (
@@ -30,7 +32,7 @@ const Headline = () => {
               </div>
             </a>
 
-            <a href="https://github.com/camjhirsh/">
+            <a href={resume} target = "_blank">
               <div className="outer-icon">
                 <div className="inner-icon">
                   <i className="social-icon fa-solid fa-file"></i>

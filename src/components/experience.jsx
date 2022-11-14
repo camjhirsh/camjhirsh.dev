@@ -22,9 +22,7 @@ const Experience = () => {
         <div className="timeline-description">
           <ul>
             <li>
-              Enabled continuous, automatic fuzz testing for 9 different high-profile open-source projects
-              (openexr, sleuthkit, etc.) that exist as dependencies in Google’s codebase and increased fuzz
-              coverage for 16 more (libyaml, uriparser, etc.)
+              Scaled Operations by 4-10x by leading integration, design, and testing of ESP application.
             </li>
             <li>
               Enabled continuous, automatic fuzz testing for 9 different high-profile open-source projects
