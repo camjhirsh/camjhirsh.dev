@@ -33,57 +33,69 @@
 
     <!-- Application -->
     <div class="app hidden">
+
       <div class="content-container">
-        <div class="name-container hidden">
-          <h1 class="fade-in"> Cameron Hirsh </h1>
+
+        <div class="name-container">
+          <div class="first-name-container hidden">
+            <h1 class="fade-in first-name"> CAMERON </h1>
+          </div>
+          <div class="last-name-container hidden">
+            <h1 class="fade-in last-name"> HIRSH </h1>
+          </div>
         </div>
+
         <div class="subtitle-container hidden">
           <h2 class="fade-in"> Developer </h2>
         </div>
-        <p> Hello I'm Cameron, a developer based in California. I enjoy elegance, and performance. </p>
         <div class="links-container">
-          <div class="link-1 hidden"> Link </div>
-          <div class="link-2 hidden"> Link </div>
-          <div class="link-3 hidden"> Link </div>
-          <div class="link-4 hidden"> Link </div>
+          <div class="fade-in link-1 hidden"> Link </div>
+          <div class="fade-in link-2 hidden"> Link </div>
+          <div class="fade-in link-3 hidden"> Link </div>
+          <div class="fade-in link-4 hidden"> Link </div>
         </div>
       </div>
+
     </div>
 
     <!-- Asynchronous Execution -->
     <script>
-      // After 3sec: Remove Spinner, Show Title
+      // After 3sec: Remove Spinner, Show First Name
       setTimeout(function() {
         document.getElementsByClassName("spinner-container")[0].remove()
         document.getElementsByClassName("app")[0].classList.remove("hidden");
         document.getElementsByClassName("app")[0].classList.add("visible");
-        document.getElementsByClassName("name-container")[0].classList.remove("hidden");
-        document.getElementsByClassName("name-container")[0].classList.add("visible");
+        document.getElementsByClassName("first-name-container")[0].classList.remove("hidden");
+        document.getElementsByClassName("first-name-container")[0].classList.add("visible");
       }, 3000);
-      // After 5sec: Show Subtitle
+      // Show Last Name
+      setTimeout(function() {
+        document.getElementsByClassName("last-name-container")[0].classList.remove("hidden");
+        document.getElementsByClassName("last-name-container")[0].classList.add("visible");
+      }, 4000);
+      // Show Subtitle
       setTimeout(function() {
         document.getElementsByClassName("subtitle-container")[0].classList.remove("hidden");
         document.getElementsByClassName("subtitle-container")[0].classList.add("visible");
-      }, 4000);
-      // After 7 / 9 / 11 / 13 sec: Show Tiles
+      }, 5000);
+      // Show Tiles
       setTimeout(function() {
         document.getElementsByClassName("link-1")[0].classList.remove("hidden");
         document.getElementsByClassName("link-1")[0].classList.add("visible");
-      }, 5000);
+      }, 6000);
       setTimeout(function() {
         document.getElementsByClassName("link-2")[0].classList.remove("hidden");
         document.getElementsByClassName("link-2")[0].classList.add("visible");
-      }, 6000);
+      }, 7000);
       setTimeout(function() {
         document.getElementsByClassName("link-3")[0].classList.remove("hidden");
         document.getElementsByClassName("link-3")[0].classList.add("visible");
-      }, 7000);
+      }, 8000);
       setTimeout(function() {
         document.getElementsByClassName("link-4")[0].classList.remove("hidden");
         document.getElementsByClassName("link-4")[0].classList.add("visible");
-      }, 8000);
+      }, 9000);
     </script>
-
 
   </body>
 

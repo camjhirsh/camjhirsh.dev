@@ -165,11 +165,11 @@ body {
 /* -----------------> App <-------------------- */
 
 .hidden {
-	content-visibility: hidden;
+	opacity: 0;
 }
 
 .visbile {
-	content-visibility: visible;
+	opacity: 1;
 }
 
 .fade-in {
@@ -193,17 +193,32 @@ body {
 }
 
 .content-container {
-	height: 50vh;
-	width: 50%;
 	display: grid;
 	grid-template-rows: 3;
 }
-
-.title {
+.name-container {
 	font-size: 4em;
+}
+
+.first-name-container {
+	display: inline-block;
+}
+
+.last-name-container {
+	display: inline-block;
+}
+
+.first-name {
+	font-weight: 300;
+	color: var(--color5);
+}
+
+.subtitle-container {
+	text-align: center;
 }
 
 .links-container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
 }
