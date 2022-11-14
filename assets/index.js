@@ -1,7 +1,11 @@
 // JQuery //
 
 $( "body" ).append( '<div class="wrapper"> </div>' );
-$( ".wrapper" ).append( '<h1 class="title"> CAMERON HIRSH </h1>' );
+$( ".wrapper" ).append( '<div class="inner spinner"> Spin </div>' );
+
+setTimeout(function() {
+  $( ".wrapper" ).append( '<h1 class="inner title"> CAMERON HIRSH </h1>' );
+}, 3000)
 
 // setTimeOut(function() {
 //   addThing()
