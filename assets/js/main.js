@@ -2,11 +2,15 @@
 // $( ".wrapper" ).append( '<div class="spinner_container"> </div>' );
 // $( ".spinner_container" ).append( '<div class="spinner"> Spin </div>' );
 
-setTimeout(function() {
-  $( ".spinner-container").remove();
+$( ".spinner-container").fadeOut(3000, complete=displayApp);
+
+function displayApp() {
   $( "body" ).append( '<div class="app"> </div>' );
-  $( ".app" ).append( '<h1 class="title"> <span class="first-name"> CAMERON </span> <span class="last-name"> HIRSH </span> </h1>' );
-}, 3000)
+  const $title = $('<h1 class="title"> <span class="first-name"> CAMERON </span> <span class="last-name"> HIRSH </span> </h1>' );
+  $title.fadeIn(3000);
+
+}
+
 
 // setTimeout(function() {
 //   $( ".app" ).append( '<br></br>' );

@@ -83,8 +83,8 @@ body {
 }
 
 .spinner {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +99,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 15px solid transparent;
+  border: 12px solid transparent;
   mix-blend-mode: overlay;
   animation: rotate var(--duration) var(--timing) infinite;
   pointer-events: none;
@@ -133,19 +133,7 @@ body {
   }
 }
 
-@keyframes text-color {
-  0% {
-    color: rgba(0, 0, 0, 1);
-  }
 
-  50% {
-    color: rgba(0, 0, 0, .5);
-  }
-
-  100% {
-    color: rgba(0, 0, 0, .1);
-  }
-}
 
 /* -----------------> App <-------------------- */
 
