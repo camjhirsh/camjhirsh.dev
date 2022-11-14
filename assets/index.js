@@ -1,9 +1,29 @@
-// JS
+// Vanilla Javascript //
 
-const body = documnet.body;
+const body = document.body;
 
-function hideSpinner () {
-  body.getElementsByClassName("title").fadeOut("slow");
+function addThing () {
+  const newDiv = document.createElement("div");
+  const newContent = document.createTextNode("Hi there and greetings!");
+  newDiv.appendChild(newContent);
+  const currentDiv = document.getElementsByClassName("wrapper")[0]
+  document.body.insertBefore(newDiv, currentDiv);
 }
 
-setTimeOut(hideSpinner(), 3000);
+setTimeout(function() {
+  addThing()
+}, 5000);
+
+// setTimeOut(addThing(), 3000);
+
+// function removeFadeOut( el, speed ) {
+//   var seconds = speed/1000;
+//   el.style.transition = "opacity "+seconds+"s ease";
+
+//   el.style.opacity = 0;
+//   setTimeout(function() {
+//       el.parentNode.removeChild(el);
+//   }, speed);
+// }
+
+// removeFadeOut(document.getElementById('test'), 2000);

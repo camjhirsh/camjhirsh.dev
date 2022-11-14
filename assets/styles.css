@@ -62,6 +62,14 @@ table {
 	--red: #742110;
 }
 
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: visible;
+}
+
 .wrapper {
 	display: flex;
 	align-items: center;
