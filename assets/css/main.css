@@ -49,7 +49,7 @@ table {
 	border-spacing: 0;
 }
 
-/* -----------------> Define Styling <-------------------- */
+/* -----------------> Theme <-------------------- */
 
 :root {
   --color1: #000000;
@@ -62,27 +62,68 @@ table {
 	--red: #742110;
 }
 
-.wrapper {
-	background-color: var(--color3);
-	color: var(--orange);
+body {
+  background-color: var(--color3);
+}
+
+/* -----------------> PreLoader <-------------------- */
+
+.loader_container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loader {
+  height: 2em;
+  width: 2em;
+	border: 5px solid;
+	color: white;
+	border-radius: 50%;
+	border-top-color: transparent;
+	animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader {
+	25% {
+		color: green;
+	}
+	50% {
+		color: yellow;
+	}
+	75% {
+		color: purple;
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* -----------------> App <-------------------- */
+
+.app {
+  height: 100vh;
+	width: 100%;
   display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
-	width: 100%;
   font-family: 'Lato', sans-serif;
-}
-
-.inner {
-  position: absolute;
+  color: var(--orange);
 }
 
 .title {
+  position: absolute;
   font-size: 4em;
 }
 
-.spinner {
-  height: 2em;
-  width: 2em;
+.first-name {
+  color: var(--color5);
+  font-weight: 200;
+}
+
+.subtitle {
+  font-weight: 100;
 }
 

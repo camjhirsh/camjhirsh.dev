@@ -1,0 +1,12 @@
+{
+  "name": "camjhirsh.dev",
+  "version": "1.0.0",
+  "description": "personal landing page",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
