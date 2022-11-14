@@ -3,7 +3,7 @@
 // $( ".spinner_container" ).append( '<div class="spinner"> Spin </div>' );
 
 setTimeout(function() {
-  $( ".loader-container").remove();
+  $( ".spinner-container").remove();
   $( "body" ).append( '<div class="app"> </div>' );
   $( ".app" ).append( '<h1 class="title"> <span class="first-name"> CAMERON </span> <span class="last-name"> HIRSH </span> </h1>' );
 }, 3000)
