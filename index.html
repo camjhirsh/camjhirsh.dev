@@ -7,97 +7,77 @@
     <title>camjhirsh</title>
     <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/main.css">
-
-    <!-- jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./main.css">
 
   </head>
 
   <body>
 
     <!-- Pre Loader -->
-    <div class="spinner-container fade-out">
+    <!-- <div class="spinner-container fade-out">
       <div class="spinner">
         <div class="spinner-sector spinner-sector-one"></div>
         <div class="spinner-sector spinner-sector-two"></div>
         <div class="spinner-sector spinner-sector-three"></div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Application -->
-    <div class="app hidden">
+    <div class="app visible">
 
       <div class="content-container">
 
         <div class="name-container">
-          <div class="first-name-container hidden">
-            <h1 class="fade-in first-name"> CAMERON </h1>
+          <div class="first-name-container">
+            <h1 class="first-name"> CAMERON </h1>
           </div>
-          <div class="last-name-container hidden">
-            <h1 class="fade-in last-name"> HIRSH </h1>
+          <div class="last-name-container">
+            <h1 class="last-name"> HIRSH </h1>
           </div>
         </div>
 
-        <div class="subtitle-container hidden">
-          <h2 class="fade-in"> Developer </h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <p> < </p>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
         </div>
+
         <div class="links-container">
-          <div class="fade-in link-1 hidden"> Link </div>
-          <div class="fade-in link-2 hidden"> Link </div>
-          <div class="fade-in link-3 hidden"> Link </div>
-          <div class="fade-in link-4 hidden"> Link </div>
+          <div class="link-1"> Link </div>
+          <div class="link-2"> Link </div>
+          <div class="link-3"> Link </div>
+          <div class="link-4"> Link </div>
         </div>
+
+
+
       </div>
 
     </div>
 
-    <!-- Asynchronous Execution -->
-    <script>
-      // After 3sec: Remove Spinner, Show First Name
-      setTimeout(function() {
-        document.getElementsByClassName("spinner-container")[0].remove()
-        document.getElementsByClassName("app")[0].classList.remove("hidden");
-        document.getElementsByClassName("app")[0].classList.add("visible");
-        document.getElementsByClassName("first-name-container")[0].classList.remove("hidden");
-        document.getElementsByClassName("first-name-container")[0].classList.add("visible");
-      }, 3000);
-      // Show Last Name
-      setTimeout(function() {
-        document.getElementsByClassName("last-name-container")[0].classList.remove("hidden");
-        document.getElementsByClassName("last-name-container")[0].classList.add("visible");
-      }, 4000);
-      // Show Subtitle
-      setTimeout(function() {
-        document.getElementsByClassName("subtitle-container")[0].classList.remove("hidden");
-        document.getElementsByClassName("subtitle-container")[0].classList.add("visible");
-      }, 5000);
-      // Show Tiles
-      setTimeout(function() {
-        document.getElementsByClassName("link-1")[0].classList.remove("hidden");
-        document.getElementsByClassName("link-1")[0].classList.add("visible");
-      }, 6000);
-      setTimeout(function() {
-        document.getElementsByClassName("link-2")[0].classList.remove("hidden");
-        document.getElementsByClassName("link-2")[0].classList.add("visible");
-      }, 7000);
-      setTimeout(function() {
-        document.getElementsByClassName("link-3")[0].classList.remove("hidden");
-        document.getElementsByClassName("link-3")[0].classList.add("visible");
-      }, 8000);
-      setTimeout(function() {
-        document.getElementsByClassName("link-4")[0].classList.remove("hidden");
-        document.getElementsByClassName("link-4")[0].classList.add("visible");
-      }, 9000);
-    </script>
+    <!-- Scripts -->
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
   </body>
 
 </html>
-

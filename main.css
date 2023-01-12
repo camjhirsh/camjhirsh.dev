@@ -119,7 +119,7 @@ body {
 }
 
 .spinner-sector-three {
-  border-right-color: var(--color2);
+  border-right-color: var(--color4);
   --duration: 2.5s;
   --timing: ease-out;
 }
@@ -161,27 +161,13 @@ body {
 	}
 }
 
-
 /* -----------------> App <-------------------- */
 
 .hidden {
-	opacity: 0;
+	visibility: hidden;
 }
-
-.visbile {
-	opacity: 1;
-}
-
-.fade-in {
-	animation: fade-in 4s;
-}
-@keyframes fade-in {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+.visible {
+  visibility: visible;
 }
 
 .app {
@@ -215,10 +201,33 @@ body {
 
 .subtitle-container {
 	text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dropdown-button {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border: 2px solid var(--color4);
+  text-align: center;
+  /* background-color: green; */
+}
+
+.arrow {
+  /* display: inline-block; */
+  vertical-align: center;
+  margin-top: 4px;
 }
 
 .links-container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	text-align: center;
+}
+
+#accordionExample {
+  width: 400px;
+  display: inline-block;
 }
